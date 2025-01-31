@@ -1,0 +1,49 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ZERO_CHECK",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "E:/code/learning/github/learning/0_cpp_warmup/build/CMakeFiles/a8429c8fe8534d5b00c277fbd317fb38/generate.stamp.rule",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}
