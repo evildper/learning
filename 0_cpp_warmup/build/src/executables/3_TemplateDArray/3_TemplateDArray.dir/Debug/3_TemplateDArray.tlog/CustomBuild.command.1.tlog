@@ -1,0 +1,10 @@
+^E:\CODE\LEARNING\GITHUB\LEARNING\0_CPP_WARMUP\PROJECT\SRC\EXECUTABLES\3_TEMPLATEDARRAY\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SE:/code/learning/github/learning/0_cpp_warmup/project -BE:/code/learning/github/learning/0_cpp_warmup/build --check-stamp-file E:/code/learning/github/learning/0_cpp_warmup/build/src/executables/3_TemplateDArray/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

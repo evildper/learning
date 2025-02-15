@@ -54,7 +54,7 @@ void PolynomialList::compress() {
         else
             itr++;
     }
-}
+}//clear the very little item to make the polynomial more looking 
 
 PolynomialList PolynomialList::operator+(const PolynomialList& right) const {
     PolynomialList poly(*this);

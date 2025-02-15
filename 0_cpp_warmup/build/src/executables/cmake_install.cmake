@@ -44,6 +44,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("E:/code/learning/github/learning/0_cpp_warmup/build/src/executables/3_TemplateDArray/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("E:/code/learning/github/learning/0_cpp_warmup/build/src/executables/4_list_Polynomial/cmake_install.cmake")
 endif()
 
