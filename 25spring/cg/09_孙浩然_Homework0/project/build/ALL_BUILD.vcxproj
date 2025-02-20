@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EDCBB6E8-EC18-36B5-A815-92C2F5F8ADED}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project -BE:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project/build --check-stamp-file E:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeCCompiler.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeCXXCompiler.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeRCCompiler.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeSystem.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\cmake\helper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project -BE:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project/build --check-stamp-file E:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeCCompiler.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeCXXCompiler.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeRCCompiler.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeSystem.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\cmake\helper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project -BE:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project/build --check-stamp-file E:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeCCompiler.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeCXXCompiler.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeRCCompiler.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeSystem.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\cmake\helper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project -BE:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project/build --check-stamp-file E:/code/learning/github/learning/25spring/cg/09_孙浩然_Homework0/09_孙浩然_Homework0/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeCCompiler.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeCXXCompiler.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeRCCompiler.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\3.28.2\CMakeSystem.cmake;E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\cmake\helper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\ZERO_CHECK.vcxproj">
+      <Project>{6F40B1E8-9E24-3709-A3CD-A2B8472155A2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\src\executables\1_BasicDArray\1_BasicDArray.vcxproj">
+      <Project>{1E2550B0-CC58-354E-8497-E5278BD01951}</Project>
+      <Name>1_BasicDArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\src\executables\2_EfficientDArray\2_EfficientDArray.vcxproj">
+      <Project>{9A75A76B-677E-30B0-B498-B2D8F4C6F3A9}</Project>
+      <Name>2_EfficientDArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\src\executables\3_TemplateDArray\3_TemplateDArray.vcxproj">
+      <Project>{FADACE3F-D2D2-33C0-8595-333A5976D015}</Project>
+      <Name>3_TemplateDArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\src\executables\4_list_Polynomial\4_list_Polynomial.vcxproj">
+      <Project>{464D3A25-499B-3974-A1F0-E78525E66C50}</Project>
+      <Name>4_list_Polynomial</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\src\executables\5_map_Polynomial\5_map_Polynomial.vcxproj">
+      <Project>{F8595F3F-B580-37CF-8721-5B161E4668D1}</Project>
+      <Name>5_map_Polynomial</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\src\libraries\shared\PolynomialListLib.vcxproj">
+      <Project>{873BD304-68D5-30D2-9A83-B13157AFD337}</Project>
+      <Name>PolynomialListLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\code\learning\github\learning\25spring\cg\09_孙浩然_Homework0\09_孙浩然_Homework0\project\build\src\libraries\static\PolynomialMapLib.vcxproj">
+      <Project>{CD1B1362-EA0F-3CD2-BCE2-596FF326BF67}</Project>
+      <Name>PolynomialMapLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
