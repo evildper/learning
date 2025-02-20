@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\code\learning\github\learning\learning\09_孙浩然_Homework0\09_孙浩然_Homework0\project\src\libraries\static\PolynomialMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\learning\github\learning\learning\09_孙浩然_Homework0\09_孙浩然_Homework0\project\src\libraries\static\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FE0C2E5C-992B-3189-8DA7-8821E00C1442}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

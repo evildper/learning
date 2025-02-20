@@ -1,0 +1,1132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						8
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						5
+					],
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/libraries",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-src.libraries-Debug-f31babef1a1cf9565744.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/libraries"
+				},
+				{
+					"build" : "src/libraries/shared",
+					"jsonFile" : "directory-src.libraries.shared-Debug-dac574ad1e6c8c2f2d2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/libraries/shared",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/libraries/static",
+					"jsonFile" : "directory-src.libraries.static-Debug-936659dff390fa899696.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/libraries/static",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/executables",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"jsonFile" : "directory-src.executables-Debug-4e3f456ba372216b9053.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/executables"
+				},
+				{
+					"build" : "src/executables/1_BasicDArray",
+					"jsonFile" : "directory-src.executables.1_BasicDArray-Debug-e164c32056fee5448c73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/1_BasicDArray",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/executables/2_EfficientDArray",
+					"jsonFile" : "directory-src.executables.2_EfficientDArray-Debug-e720216e99c9078bef73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/2_EfficientDArray",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/executables/3_TemplateDArray",
+					"jsonFile" : "directory-src.executables.3_TemplateDArray-Debug-02e2f034d358a6fb8552.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/3_TemplateDArray",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/executables/4_list_Polynomial",
+					"jsonFile" : "directory-src.executables.4_list_Polynomial-Debug-fbb6a4b828927e592de7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/4_list_Polynomial",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/executables/5_map_Polynomial",
+					"jsonFile" : "directory-src.executables.5_map_Polynomial-Debug-82c483d2a313a53e5ef4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/5_map_Polynomial",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "CppPractices",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "1_BasicDArray::@3a702d396c0769376f52",
+					"jsonFile" : "target-1_BasicDArray-Debug-b6005ea4df77887179ec.json",
+					"name" : "1_BasicDArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "2_EfficientDArray::@60e2bc2bc639656638ff",
+					"jsonFile" : "target-2_EfficientDArray-Debug-c803529185a05e9c44d0.json",
+					"name" : "2_EfficientDArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "3_TemplateDArray::@032c9c8e338e0e72bf09",
+					"jsonFile" : "target-3_TemplateDArray-Debug-f3911133cfa3150233b4.json",
+					"name" : "3_TemplateDArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "4_list_Polynomial::@a29325bc6b9e2c5fd92b",
+					"jsonFile" : "target-4_list_Polynomial-Debug-45e311492cd175048a0f.json",
+					"name" : "4_list_Polynomial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "5_map_Polynomial::@7451047c9424103abd13",
+					"jsonFile" : "target-5_map_Polynomial-Debug-d5fb8261a4b7415454f4.json",
+					"name" : "5_map_Polynomial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-0e8b0dadc38082bc8073.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "PolynomialListLib::@51392703d4c1107cea82",
+					"jsonFile" : "target-PolynomialListLib-Debug-53a59f9ec3e0a11331a9.json",
+					"name" : "PolynomialListLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "PolynomialMapLib::@f547a5d5381f6c3500c2",
+					"jsonFile" : "target-PolynomialMapLib-Debug-78f62e1f122791d88f6d.json",
+					"name" : "PolynomialMapLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-439972eeb1d343fab284.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						8
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						5
+					],
+					"jsonFile" : "directory-src-Release-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/libraries",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-src.libraries-Release-f31babef1a1cf9565744.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/libraries"
+				},
+				{
+					"build" : "src/libraries/shared",
+					"jsonFile" : "directory-src.libraries.shared-Release-dac574ad1e6c8c2f2d2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/libraries/shared",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/libraries/static",
+					"jsonFile" : "directory-src.libraries.static-Release-936659dff390fa899696.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/libraries/static",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/executables",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"jsonFile" : "directory-src.executables-Release-4e3f456ba372216b9053.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/executables"
+				},
+				{
+					"build" : "src/executables/1_BasicDArray",
+					"jsonFile" : "directory-src.executables.1_BasicDArray-Release-e164c32056fee5448c73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/1_BasicDArray",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/executables/2_EfficientDArray",
+					"jsonFile" : "directory-src.executables.2_EfficientDArray-Release-e720216e99c9078bef73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/2_EfficientDArray",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/executables/3_TemplateDArray",
+					"jsonFile" : "directory-src.executables.3_TemplateDArray-Release-02e2f034d358a6fb8552.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/3_TemplateDArray",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/executables/4_list_Polynomial",
+					"jsonFile" : "directory-src.executables.4_list_Polynomial-Release-fbb6a4b828927e592de7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/4_list_Polynomial",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/executables/5_map_Polynomial",
+					"jsonFile" : "directory-src.executables.5_map_Polynomial-Release-82c483d2a313a53e5ef4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/5_map_Polynomial",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "CppPractices",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "1_BasicDArray::@3a702d396c0769376f52",
+					"jsonFile" : "target-1_BasicDArray-Release-f77e9bfe7c87b2383aa3.json",
+					"name" : "1_BasicDArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "2_EfficientDArray::@60e2bc2bc639656638ff",
+					"jsonFile" : "target-2_EfficientDArray-Release-1085451bbbda93732b73.json",
+					"name" : "2_EfficientDArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "3_TemplateDArray::@032c9c8e338e0e72bf09",
+					"jsonFile" : "target-3_TemplateDArray-Release-4819d6a3e69fba0f5c38.json",
+					"name" : "3_TemplateDArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "4_list_Polynomial::@a29325bc6b9e2c5fd92b",
+					"jsonFile" : "target-4_list_Polynomial-Release-d9378cc70200d8e0a0c8.json",
+					"name" : "4_list_Polynomial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "5_map_Polynomial::@7451047c9424103abd13",
+					"jsonFile" : "target-5_map_Polynomial-Release-57e6802698c3a7865f71.json",
+					"name" : "5_map_Polynomial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-0e8b0dadc38082bc8073.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "PolynomialListLib::@51392703d4c1107cea82",
+					"jsonFile" : "target-PolynomialListLib-Release-59a8ad726d28939a0ed8.json",
+					"name" : "PolynomialListLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "PolynomialMapLib::@f547a5d5381f6c3500c2",
+					"jsonFile" : "target-PolynomialMapLib-Release-62937791021b84ca85fd.json",
+					"name" : "PolynomialMapLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-439972eeb1d343fab284.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						8
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						5
+					],
+					"jsonFile" : "directory-src-MinSizeRel-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/libraries",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-src.libraries-MinSizeRel-f31babef1a1cf9565744.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/libraries"
+				},
+				{
+					"build" : "src/libraries/shared",
+					"jsonFile" : "directory-src.libraries.shared-MinSizeRel-dac574ad1e6c8c2f2d2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/libraries/shared",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/libraries/static",
+					"jsonFile" : "directory-src.libraries.static-MinSizeRel-936659dff390fa899696.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/libraries/static",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/executables",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"jsonFile" : "directory-src.executables-MinSizeRel-4e3f456ba372216b9053.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/executables"
+				},
+				{
+					"build" : "src/executables/1_BasicDArray",
+					"jsonFile" : "directory-src.executables.1_BasicDArray-MinSizeRel-e164c32056fee5448c73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/1_BasicDArray",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/executables/2_EfficientDArray",
+					"jsonFile" : "directory-src.executables.2_EfficientDArray-MinSizeRel-e720216e99c9078bef73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/2_EfficientDArray",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/executables/3_TemplateDArray",
+					"jsonFile" : "directory-src.executables.3_TemplateDArray-MinSizeRel-02e2f034d358a6fb8552.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/3_TemplateDArray",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/executables/4_list_Polynomial",
+					"jsonFile" : "directory-src.executables.4_list_Polynomial-MinSizeRel-fbb6a4b828927e592de7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/4_list_Polynomial",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/executables/5_map_Polynomial",
+					"jsonFile" : "directory-src.executables.5_map_Polynomial-MinSizeRel-82c483d2a313a53e5ef4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/5_map_Polynomial",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "CppPractices",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "1_BasicDArray::@3a702d396c0769376f52",
+					"jsonFile" : "target-1_BasicDArray-MinSizeRel-24a615d5662a45e56826.json",
+					"name" : "1_BasicDArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "2_EfficientDArray::@60e2bc2bc639656638ff",
+					"jsonFile" : "target-2_EfficientDArray-MinSizeRel-b5c7b0a8b64298a32378.json",
+					"name" : "2_EfficientDArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "3_TemplateDArray::@032c9c8e338e0e72bf09",
+					"jsonFile" : "target-3_TemplateDArray-MinSizeRel-dcce65d3c12758b7d131.json",
+					"name" : "3_TemplateDArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "4_list_Polynomial::@a29325bc6b9e2c5fd92b",
+					"jsonFile" : "target-4_list_Polynomial-MinSizeRel-626520bf93d75902db5c.json",
+					"name" : "4_list_Polynomial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "5_map_Polynomial::@7451047c9424103abd13",
+					"jsonFile" : "target-5_map_Polynomial-MinSizeRel-3b0637833f3bcbde2feb.json",
+					"name" : "5_map_Polynomial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-0e8b0dadc38082bc8073.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "PolynomialListLib::@51392703d4c1107cea82",
+					"jsonFile" : "target-PolynomialListLib-MinSizeRel-6bb79e9fa2db5148cb56.json",
+					"name" : "PolynomialListLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "PolynomialMapLib::@f547a5d5381f6c3500c2",
+					"jsonFile" : "target-PolynomialMapLib-MinSizeRel-bae4720fcf487f9425fb.json",
+					"name" : "PolynomialMapLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-439972eeb1d343fab284.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						8
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						5
+					],
+					"jsonFile" : "directory-src-RelWithDebInfo-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/libraries",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-src.libraries-RelWithDebInfo-f31babef1a1cf9565744.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/libraries"
+				},
+				{
+					"build" : "src/libraries/shared",
+					"jsonFile" : "directory-src.libraries.shared-RelWithDebInfo-dac574ad1e6c8c2f2d2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/libraries/shared",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/libraries/static",
+					"jsonFile" : "directory-src.libraries.static-RelWithDebInfo-936659dff390fa899696.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/libraries/static",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/executables",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"jsonFile" : "directory-src.executables-RelWithDebInfo-4e3f456ba372216b9053.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/executables"
+				},
+				{
+					"build" : "src/executables/1_BasicDArray",
+					"jsonFile" : "directory-src.executables.1_BasicDArray-RelWithDebInfo-e164c32056fee5448c73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/1_BasicDArray",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/executables/2_EfficientDArray",
+					"jsonFile" : "directory-src.executables.2_EfficientDArray-RelWithDebInfo-e720216e99c9078bef73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/2_EfficientDArray",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/executables/3_TemplateDArray",
+					"jsonFile" : "directory-src.executables.3_TemplateDArray-RelWithDebInfo-02e2f034d358a6fb8552.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/3_TemplateDArray",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/executables/4_list_Polynomial",
+					"jsonFile" : "directory-src.executables.4_list_Polynomial-RelWithDebInfo-fbb6a4b828927e592de7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/4_list_Polynomial",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/executables/5_map_Polynomial",
+					"jsonFile" : "directory-src.executables.5_map_Polynomial-RelWithDebInfo-82c483d2a313a53e5ef4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/executables/5_map_Polynomial",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "CppPractices",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "1_BasicDArray::@3a702d396c0769376f52",
+					"jsonFile" : "target-1_BasicDArray-RelWithDebInfo-220bded4e6b27ab91574.json",
+					"name" : "1_BasicDArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "2_EfficientDArray::@60e2bc2bc639656638ff",
+					"jsonFile" : "target-2_EfficientDArray-RelWithDebInfo-98d26348fa095e8e0b9b.json",
+					"name" : "2_EfficientDArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "3_TemplateDArray::@032c9c8e338e0e72bf09",
+					"jsonFile" : "target-3_TemplateDArray-RelWithDebInfo-9cfb7b8d298d51a32a15.json",
+					"name" : "3_TemplateDArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "4_list_Polynomial::@a29325bc6b9e2c5fd92b",
+					"jsonFile" : "target-4_list_Polynomial-RelWithDebInfo-a27701cce2cc78d6e4af.json",
+					"name" : "4_list_Polynomial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "5_map_Polynomial::@7451047c9424103abd13",
+					"jsonFile" : "target-5_map_Polynomial-RelWithDebInfo-a6f617069dde103ce737.json",
+					"name" : "5_map_Polynomial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-0e8b0dadc38082bc8073.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "PolynomialListLib::@51392703d4c1107cea82",
+					"jsonFile" : "target-PolynomialListLib-RelWithDebInfo-4def22ac523a7fc59339.json",
+					"name" : "PolynomialListLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "PolynomialMapLib::@f547a5d5381f6c3500c2",
+					"jsonFile" : "target-PolynomialMapLib-RelWithDebInfo-b8b9dfe800d43dc0139d.json",
+					"name" : "PolynomialMapLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-439972eeb1d343fab284.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/code/learning/github/learning/learning/09_\u5b59\u6d69\u7136_Homework0/build",
+		"source" : "E:/code/learning/github/learning/learning/09_\u5b59\u6d69\u7136_Homework0/09_\u5b59\u6d69\u7136_Homework0/project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

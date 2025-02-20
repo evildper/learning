@@ -1,0 +1,10 @@
+^E:\CODE\LEARNING\GITHUB\LEARNING\LEARNING\09_孙浩然_HOMEWORK0\09_孙浩然_HOMEWORK0\PROJECT\SRC\EXECUTABLES\1_BASICDARRAY\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SE:/code/learning/github/learning/learning/09_孙浩然_Homework0/09_孙浩然_Homework0/project -BE:/code/learning/github/learning/learning/09_孙浩然_Homework0/build --check-stamp-file E:/code/learning/github/learning/learning/09_孙浩然_Homework0/build/src/executables/1_BasicDArray/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
