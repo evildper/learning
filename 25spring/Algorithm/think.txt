@@ -1,0 +1,4 @@
+lab-1：链表的操作：std::unordered_map<int, std::list<int>::iterator> pos;这条语句构建了一个哈希表，key和value配对。pos[x] = it;it是指向元素x所在位置的指针。
+易错点：pos[y] = list.insert(it, y);insert()是把y插入到it之前的位置，并返回新插入值所在的地址。
+发牌算法：实际上就是逆向过程。
+数位统计法：尚未明白。
