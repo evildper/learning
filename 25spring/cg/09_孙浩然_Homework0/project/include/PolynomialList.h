@@ -35,6 +35,7 @@ public:
     PolynomialList& operator=(const PolynomialList& right); //Overload operator =
 
     void Print() const;
+    
 
 private:
     struct Term {

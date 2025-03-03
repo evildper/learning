@@ -24,12 +24,12 @@ PolynomialMap::PolynomialMap(const double* cof, const int* deg, int n) {
 	}
 }
 
-PolynomialMap::PolynomialMap(const vector<int>& deg, const vector<double>& cof) {
+PolynomialMap::PolynomialMap(const vector<int>& deg, const vector<double>& cof) {//vector is a dynamic number
 	assert(deg.size() == cof.size());
 	// TODO
 	for (int i = 0; i < cof.size(); i++)
 	{
-		coff(deg[i])=cof[i];
+		coff(deg[i])=cof[i];//coff ：double& could be changed.
 	}
 	
 }
@@ -61,7 +61,7 @@ void PolynomialMap::compress() {
 		{
 			coff(t.first)=t.second;
 			/* code */
-		}
+		}//no is regarded as zero.
 		
 	}
 }

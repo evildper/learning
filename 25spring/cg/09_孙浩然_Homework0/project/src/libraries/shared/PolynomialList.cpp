@@ -75,7 +75,7 @@ void PolynomialList::compress() {
         
     }
 }
-
+// lr is a iterater
 
 
 PolynomialList PolynomialList::operator+(const PolynomialList& right) const {
@@ -177,8 +177,9 @@ PolynomialList::Term& PolynomialList::AddOneTerm(const Term& term) {
             return *itr;
         }
 
-        if (itr->deg > term.deg)
+        if (itr->deg < term.deg)//low degree
             break;
     }
     return *m_Polynomial.insert(itr, term);
 }
+
